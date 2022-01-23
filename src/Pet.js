@@ -3,9 +3,9 @@ import React from "react";
 const Pet = (props) => {
   return (
     <div>
-      <h2>{props.name}</h2>
-      <h3>{props.car}</h3>
-      <h3>{props.bread}</h3>
+      <h1>{props.name}</h1>
+      <h2>{props.animal}</h2>
+      <h2>{props.breed}</h2>
     </div>
   );
 };
